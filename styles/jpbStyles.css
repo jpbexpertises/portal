@@ -1,0 +1,263 @@
+/* JPB Experises Font
+*************************************************/
+@font-face {  
+  font-family: vinetaBT ; 
+  src: url( fonts/font-vineta-bt.ttf ) format("truetype"); /* IE */
+  src: local("Vineta BT"), url( fonts/font-vineta-bt.ttf ) format("truetype"); /* non-IE */
+}
+
+.companyFont{
+  font-family: vinetaBT;
+}
+
+/* Page Main Containers
+*************************************************/
+
+body{
+  text-align: center;
+  
+	background-repeat: no-repeat;
+	background-image: url(../images/image-blueprints-03.jpg);
+
+}
+
+.pageContainer{
+  text-align: left;
+  font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+  
+  border-color: #666666;
+  border-style: solid;
+  border-width: thin;
+  background-color: #e6e6e6;
+  
+  height: 100%;
+  width: 800px;
+  
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+  box-shadow: 0 0 5px #888;
+}
+
+.pageTitle{
+  padding: 5px;
+  font-size: 1.4em;
+}
+
+.pageMenu{
+  padding: 5px;
+}
+
+.pageMenu a{
+  font-size: 1.1em;
+  font-variant: small-caps;
+  font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+  text-decoration: none;
+  color: #000000;
+}
+
+.pageMenu a:hover{
+	text-decoration: underline;
+	font-weight: bold;
+
+}
+
+.pageMenu a:visited{
+  
+	color: #000000;
+  
+}
+
+.pageMenu ul{
+  margin: 0;
+  padding: 0;
+}
+
+.pageMenu ul li{
+	display: inline;
+}
+
+.pageMenu li{
+  margin-right: 10px;
+}
+
+.pagePictureBand{
+  width: 100%;
+  height: auto;
+  
+  margin-bottom: 20px;
+  
+}
+
+.pageContent{
+  padding-bottom: 20px
+
+}
+
+/* Slider Styles
+*************************************************/
+#slider {
+    position:relative;
+    width:100%; /* Change this to your images width */
+    height:200px; /* Change this to your images height */
+    background:url(../images/slider/loading.gif) no-repeat 50% 50%;
+}
+#slider img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+}
+#slider a {
+    border:0;
+    display:block;
+}
+
+.nivo-controlNav {
+	position:absolute;
+	left:0px;
+	bottom:-20px;
+}
+.nivo-controlNav a {
+	display:block;
+	width:22px;
+	height:22px;
+	background:url(../images/slider/bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+.nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+
+.nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(../images/slider/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+a.nivo-prevNav {
+	left:15px;
+}
+
+.nivo-caption {
+    text-shadow:none;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.nivo-caption a { 
+    color:#efe9d1;
+    text-decoration:underline;
+}
+
+/* Ajax Loader
+*************************************************/
+.ajaxLoaderContainer{
+  color: #e6e6e6;
+  background-color: #582c00;
+  position:absolute;
+  margin:10px;
+  padding: 10px;
+  opacity: .8;
+  
+}
+
+.ajaxLoaderText{
+  line-height: 32px;
+  margin-left: 10px;
+  font-size: .9em;
+/*   vertical-align: middle; */
+  float:left;
+}
+
+.ui-image-jxloader{
+  float: left;
+  width:32px;
+  height:32px;
+/*   background-image: url(); */
+  background-repeat: no-repeat;
+  background-position:0px 0px;
+}
+
+/* Home Page Content Elements
+*************************************************/
+.pageEnter{
+  font-weight: bold;
+  border-bottom-color: black;
+  border-top-color: black;
+  border-left-style: none;
+  border-bottom-style: dotted;
+  border-right-style: none;
+  border-top-style: dotted;
+  border-bottom-width: thin;
+  border-top-width: thin;
+  padding: 5px;
+	background-color: yellow;
+  margin-bottom: 15px;
+}
+
+.pageEnter_Title{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.pageEnter_Button{
+  margin-right: 10px;
+}
+
+.pageContent_Text{
+  width: 60%;
+  padding: 10px;
+  font-size: .7em;
+}
+
+
+/* Contact Information Elements
+*************************************************/
+.pageContent_Infos{
+  width: 30%;
+  font-size: .7em;
+  text-align: center;
+}
+
+.pageContent_Address{
+  margin-top: 5px;
+}
+
+.pageContent_Contact{
+  margin-top: 5px;
+}
+
+.pageContent_Capital{
+  margin-top: 15px;
+}
+
+.pageContent_Cstb{
+  width: 70%;
+  
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+  box-shadow: 0 0 5px #888;
+}
+
+.pageContent_CstbText{
+  font-size: .7em;
+  margin-bottom: 20px;
+  color: #3778A5;
+}
+
+/* Contact Information Elements
+*************************************************/
+.ui-helper-left{ float: left; }
+.ui-helper-right{ float: right; }
