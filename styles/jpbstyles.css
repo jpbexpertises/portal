@@ -2,12 +2,12 @@
 *************************************************/
 @font-face {  
   font-family: vinetaBT ; 
-  src: url( fonts/font-vineta-bt.ttf ) format("truetype"); /* IE */
-  src: local("Vineta BT"), url( fonts/font-vineta-bt.ttf ) format("truetype"); /* non-IE */
+  src: url( ../styles/fonts/font-vineta-bt.ttf ) format("truetype"); /* IE */
+  src: local("Vineta BT"), url( ../styles/fonts/font-vineta-bt.ttf ) format("truetype"); /* non-IE */
 }
 
 .companyFont{
-  font-family: vinetaBT;
+    font-family: vinetaBT, sans-serif;
 }
 
 /* Page Main Containers
