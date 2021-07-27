@@ -1,2 +1,2 @@
-T&eacute;l. : <a href="tel:+33 (4) 76 41 91 38">04 76 41 91 38</a><br>
+T&eacute;l. : <a href="tel:+33 (6) 71 11 82 60">06 71 11 82 60</a><br>
 E-mail : <a href="mailto:brunet.jeanpierre@free.fr">jpbexpertises@gmail.com</a>
