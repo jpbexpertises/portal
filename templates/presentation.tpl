@@ -10,7 +10,7 @@
     Son m&eacute;tier est de d&eacute;terminer les causes d&rsquo;un dommage immobilier, mettre en place les mesures conservatoires &eacute;ventuelles,
     d&eacute;terminer le mode r&eacute;paratoire, &eacute;valuer le co&ucirc;t des r&eacute;parations et organiser les recours de responsabilit&eacute;s.<br><br>
     Ses clients sont des entreprises, des particuliers et des soci&eacute;t&eacute;s d&rsquo;assurances.<br><br>
-    <font style="companyFont">JPB Expertises</font> est immatricul&eacute;e au RCS de GRENOBLE</p>
+    <font style="companyFont">JPB Expertises</font></p>
     <div style="position:relative">
       <img src="images/image-helmet.png" width="25%">
       <img src="images/image-ruler.png" width="25%"><br>
