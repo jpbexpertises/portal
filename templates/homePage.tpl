@@ -1,6 +1,6 @@
 <div id="pageEnter" class="pageEnter">
   <button id="pageEnter_Button" class="pageEnter_Button ui-helper-right">Entrez</button>
-  <div id="pageEnter_Title" class="pageEnter_Title ui-helper-right">Bienvenue dans la SARL JPB Expertises</div>
+  <div id="pageEnter_Title" class="pageEnter_Title ui-helper-right">Bienvenue sur JPB Expertises</div>
   <div style="clear:both"></div>
 </div><!-- pageEnter -->
 
